@@ -5,8 +5,11 @@ import TourList from "./component/TourList";
 
 function App() {
   return (
+  
     <React.Fragment>
-      <Navbar />
+      
+	  <Navbar ></Navbar>
+	  
       <TourList />
     </React.Fragment>
   );
